@@ -8,11 +8,11 @@
   "author": "china-bin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/vscode-html-languageservice"
+    "url": "https://github.com/vdesjs/vscode-wxml-languageservice"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Microsoft/vscode-html-languageservice"
+    "url": "https://github.com/vdesjs/vscode-wxml-languageservice"
   },
   "devDependencies": {
     "@types/mocha": "^8.2.2",
@@ -34,7 +34,6 @@
   },
   "scripts": {
     "prepublishOnly": "npm run clean && npm run compile-esm && npm run test && npm run remove-sourcemap-refs",
-    "postpublish": "node ./build/post-publish.js",
     "compile": "tsc -p ./src && npm run copy-jsbeautify",
     "compile-esm": "tsc -p ./src/tsconfig.esm.json",
     "watch": "tsc -w -p ./src && npm run copy-jsbeautify",
