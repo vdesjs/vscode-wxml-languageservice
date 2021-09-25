@@ -5,7 +5,7 @@
 
 import { HTMLDocument } from '../parser/htmlParser';
 import { createScanner } from '../parser/htmlScanner';
-import { TokenType, LanguageServiceOptions, HoverSettings, TextDocument, Range, Position, Hover, MarkedString, MarkupContent, MarkupKind } from '../htmlLanguageTypes';
+import { TokenType, LanguageServiceOptions, HoverSettings, TextDocument, Range, Position, Hover, MarkedString, MarkupContent, MarkupKind } from '../wxmlLanguageTypes';
 import { HTMLDataManager } from '../languageFacts/dataManager';
 import { isDefined } from '../utils/object';
 import { generateDocumentation } from '../languageFacts/dataProvider';

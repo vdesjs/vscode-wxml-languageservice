@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { Location, Range, SymbolInformation, SymbolKind, TextDocument} from '../htmlLanguageTypes';
+import { Location, Range, SymbolInformation, SymbolKind, TextDocument} from '../wxmlLanguageTypes';
 import { HTMLDocument, Node } from '../parser/htmlParser';
 
 export function findDocumentSymbols(document: TextDocument, htmlDocument: HTMLDocument): SymbolInformation[] {

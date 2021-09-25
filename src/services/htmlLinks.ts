@@ -7,7 +7,7 @@ import { createScanner } from '../parser/htmlScanner';
 import * as strings from '../utils/strings';
 import { URI as Uri } from 'vscode-uri';
 
-import { TokenType, DocumentContext, TextDocument, Range, DocumentLink } from '../htmlLanguageTypes';
+import { TokenType, DocumentContext, TextDocument, Range, DocumentLink } from '../wxmlLanguageTypes';
 
 function normalizeRef(url: string): string {
 	const first = url[0];

@@ -5,7 +5,7 @@
 
 import * as assert from 'assert';
 import { createScanner } from '../parser/htmlScanner';
-import { TokenType, ScannerState } from '../htmlLanguageTypes';
+import { TokenType, ScannerState } from '../wxmlLanguageTypes';
 
 suite('HTML Scanner', () => {
 

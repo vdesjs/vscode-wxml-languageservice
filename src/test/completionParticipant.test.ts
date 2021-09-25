@@ -4,9 +4,9 @@
  *--------------------------------------------------------------------------------------------*/
 
 import * as assert from 'assert';
-import * as htmlLanguageService from '../htmlLanguageService';
+import * as htmlLanguageService from '../wmlLanguageService';
 
-import { HtmlAttributeValueContext, HtmlContentContext, Position, TextDocument } from '../htmlLanguageService';
+import { HtmlAttributeValueContext, HtmlContentContext, Position, TextDocument } from '../wmlLanguageService';
 
 export interface ExpectedHtmlAttributeValue {
   tag: string;

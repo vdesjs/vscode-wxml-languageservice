@@ -18,14 +18,14 @@ import {
 	Scanner, HTMLDocument, CompletionConfiguration, ICompletionParticipant, HTMLFormatConfiguration, DocumentContext,
 	IHTMLDataProvider, HTMLDataV1, LanguageServiceOptions, TextDocument, SelectionRange, WorkspaceEdit,
 	Position, CompletionList, Hover, Range, SymbolInformation, TextEdit, DocumentHighlight, DocumentLink, FoldingRange, HoverSettings
-} from './htmlLanguageTypes';
+} from './wxmlLanguageTypes';
 import { getFoldingRanges } from './services/htmlFolding';
 import { getSelectionRanges } from './services/htmlSelectionRange';
 import { HTMLDataProvider } from './languageFacts/dataProvider';
 import { HTMLDataManager } from './languageFacts/dataManager';
 import { htmlData } from './languageFacts/data/webCustomData';
 
-export * from './htmlLanguageTypes';
+export * from './wxmlLanguageTypes';
 
 export interface LanguageService {
 	setDataProviders(useDefaultDataProvider: boolean, customDataProviders: IHTMLDataProvider[]): void;

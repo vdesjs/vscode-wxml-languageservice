@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { ITagData, IAttributeData, IValueData, IHTMLDataProvider, HTMLDataV1, MarkupContent } from '../htmlLanguageTypes';
+import { ITagData, IAttributeData, IValueData, IHTMLDataProvider, HTMLDataV1, MarkupContent } from '../wxmlLanguageTypes';
 import { normalizeMarkupContent } from '../utils/markup';
 
 export class HTMLDataProvider implements IHTMLDataProvider {

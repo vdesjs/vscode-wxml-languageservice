@@ -5,7 +5,7 @@
 
 import { createScanner } from './htmlScanner';
 import { findFirst } from '../utils/arrays';
-import { TokenType } from '../htmlLanguageTypes';
+import { TokenType } from '../wxmlLanguageTypes';
 import { isVoidElement } from '../languageFacts/fact';
 
 export class Node {

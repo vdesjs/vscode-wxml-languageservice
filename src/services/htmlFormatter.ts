@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { HTMLFormatConfiguration, Range, TextEdit, Position, TextDocument } from '../htmlLanguageTypes';
+import { HTMLFormatConfiguration, Range, TextEdit, Position, TextDocument } from '../wxmlLanguageTypes';
 import { IBeautifyHTMLOptions, html_beautify } from '../beautify/beautify-html';
 import { repeat } from '../utils/strings';
 

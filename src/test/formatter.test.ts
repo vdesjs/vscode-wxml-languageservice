@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import { getLanguageService, TextDocument, Range } from '../htmlLanguageService';
+import { getLanguageService, TextDocument, Range } from '../wmlLanguageService';
 import * as assert from 'assert';
 
 suite('JSON Formatter', () => {

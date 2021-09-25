@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { TokenType, FoldingRange, FoldingRangeKind, TextDocument } from '../htmlLanguageTypes';
+import { TokenType, FoldingRange, FoldingRangeKind, TextDocument } from '../wxmlLanguageTypes';
 import { createScanner } from '../parser/htmlScanner';
 import { isVoidElement } from '../languageFacts/fact';
 

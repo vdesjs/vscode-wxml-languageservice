@@ -6,7 +6,7 @@
 
 import 'mocha';
 import * as assert from 'assert';
-import { TextDocument } from '../htmlLanguageTypes';
+import { TextDocument } from '../wxmlLanguageTypes';
 import { getFoldingRanges } from '../services/htmlFolding';
 
 interface ExpectedIndentRange {

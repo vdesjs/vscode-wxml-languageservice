@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 
 import { assertHover, assertHover2 } from './hoverUtil';
-import { MarkupContent } from '../htmlLanguageTypes';
+import { MarkupContent } from '../wxmlLanguageTypes';
 
 suite('HTML Hover', () => {
 	test('Single', function (): any {

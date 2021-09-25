@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 
 import * as nls from 'vscode-nls';
-import { TokenType, ScannerState, Scanner } from '../htmlLanguageTypes';
+import { TokenType, ScannerState, Scanner } from '../wxmlLanguageTypes';
 const localize = nls.loadMessageBundle();
 
 class MultiLineStream {

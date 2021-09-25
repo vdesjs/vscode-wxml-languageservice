@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { IHTMLDataProvider } from '../htmlLanguageTypes';
+import { IHTMLDataProvider } from '../wxmlLanguageTypes';
 import { HTMLDataProvider } from './dataProvider';
 import { htmlData } from './data/webCustomData';
 

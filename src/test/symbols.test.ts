@@ -4,9 +4,9 @@
  *--------------------------------------------------------------------------------------------*/
 
 import * as assert from 'assert';
-import * as htmlLanguageService from '../htmlLanguageService';
+import * as htmlLanguageService from '../wmlLanguageService';
 
-import { SymbolInformation, SymbolKind, Location, Range, TextDocument } from '../htmlLanguageService';
+import { SymbolInformation, SymbolKind, Location, Range, TextDocument } from '../wmlLanguageService';
 
 suite('HTML Symbols', () => {
 

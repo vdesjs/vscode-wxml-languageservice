@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { TextDocument, Position, WorkspaceEdit, Range, TextEdit } from '../htmlLanguageTypes';
+import { TextDocument, Position, WorkspaceEdit, Range, TextEdit } from '../wxmlLanguageTypes';
 import { HTMLDocument, Node } from '../parser/htmlParser';
 
 export function doRename(

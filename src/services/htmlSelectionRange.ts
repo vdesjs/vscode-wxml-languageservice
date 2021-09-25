@@ -5,7 +5,7 @@
 
 import { createScanner } from '../parser/htmlScanner';
 import { parse, Node } from '../parser/htmlParser';
-import { TokenType, Range, Position, SelectionRange, TextDocument } from '../htmlLanguageTypes';
+import { TokenType, Range, Position, SelectionRange, TextDocument } from '../wxmlLanguageTypes';
 
 export function getSelectionRanges(document: TextDocument, positions: Position[]): SelectionRange[] {
 

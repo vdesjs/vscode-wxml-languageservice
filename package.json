@@ -1,11 +1,11 @@
 {
-  "name": "vscode-html-languageservice",
+  "name": "@vdesjs/vscode-wxml-languageservice",
   "version": "4.0.8",
   "description": "Language service for HTML",
-  "main": "./lib/umd/htmlLanguageService.js",
-  "typings": "./lib/umd/htmlLanguageService",
-  "module": "./lib/esm/htmlLanguageService.js",
-  "author": "Microsoft Corporation",
+  "main": "./lib/umd/wxmlLanguageService.js",
+  "typings": "./lib/umd/wxmlLanguageService",
+  "module": "./lib/esm/wxmlLanguageService.js",
+  "author": "china-bin",
   "repository": {
     "type": "git",
     "url": "https://github.com/Microsoft/vscode-html-languageservice"

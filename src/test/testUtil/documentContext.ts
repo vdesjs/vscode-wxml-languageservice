@@ -5,7 +5,7 @@
 
 import * as url from 'url';
 
-import { DocumentContext } from "../../htmlLanguageTypes";
+import { DocumentContext } from "../../wxmlLanguageTypes";
 import { startsWith } from "../../utils/strings";
 import { joinPath } from "../../utils/resources";
 

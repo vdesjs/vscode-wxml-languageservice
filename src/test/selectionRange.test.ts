@@ -5,7 +5,7 @@
 
 import 'mocha';
 import * as assert from 'assert';
-import { SelectionRange, TextDocument, getLanguageService } from '../htmlLanguageService';
+import { SelectionRange, TextDocument, getLanguageService } from '../wmlLanguageService';
 
 function assertRanges(content: string, expected: (number | string)[][]): void {
 	let message = `${content} gives selection range:\n`;

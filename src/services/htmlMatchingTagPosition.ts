@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { TextDocument, Position } from '../htmlLanguageTypes';
+import { TextDocument, Position } from '../wxmlLanguageTypes';
 import { HTMLDocument } from '../parser/htmlParser';
 
 export function findMatchingTagPosition(

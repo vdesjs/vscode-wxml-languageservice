@@ -5,8 +5,8 @@
  *--------------------------------------------------------------------------------------------*/
 
 import * as assert from 'assert';
-import { TextDocument } from '../htmlLanguageTypes';
-import * as htmlLanguageService from '../htmlLanguageService';
+import { TextDocument } from '../wxmlLanguageTypes';
+import * as htmlLanguageService from '../wmlLanguageService';
 import { getDocumentContext } from './testUtil/documentContext';
 
 suite('HTML Link Detection', () => {

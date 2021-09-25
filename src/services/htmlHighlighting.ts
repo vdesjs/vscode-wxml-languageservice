@@ -5,7 +5,7 @@
 
 import { HTMLDocument } from '../parser/htmlParser';
 import { createScanner } from '../parser/htmlScanner';
-import { TokenType, TextDocument, Range, Position, DocumentHighlightKind, DocumentHighlight } from '../htmlLanguageTypes';
+import { TokenType, TextDocument, Range, Position, DocumentHighlightKind, DocumentHighlight } from '../wxmlLanguageTypes';
 
 export function findDocumentHighlights(document: TextDocument, position: Position, htmlDocument: HTMLDocument): DocumentHighlight[] {
 	const offset = document.offsetAt(position);

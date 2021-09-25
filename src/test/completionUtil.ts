@@ -4,9 +4,9 @@
  *--------------------------------------------------------------------------------------------*/
 
 import * as assert from 'assert';
-import * as htmlLanguageService from '../htmlLanguageService';
+import * as htmlLanguageService from '../wmlLanguageService';
 
-import { TextDocument, CompletionList, CompletionItemKind, MarkupContent, TextEdit } from '../htmlLanguageService';
+import { TextDocument, CompletionList, CompletionItemKind, MarkupContent, TextEdit } from '../wmlLanguageService';
 
 interface ItemDescription {
 	label: string;

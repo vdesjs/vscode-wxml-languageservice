@@ -4,8 +4,8 @@
  *--------------------------------------------------------------------------------------------*/
 
 import * as assert from 'assert';
-import * as htmlLanguageService from '../htmlLanguageService';
-import { WorkspaceEdit, TextDocument } from '../htmlLanguageService';
+import * as htmlLanguageService from '../wmlLanguageService';
+import { WorkspaceEdit, TextDocument } from '../wmlLanguageService';
 
 
 export function testRename(value: string, newName: string, expectedDocContent: string): void {

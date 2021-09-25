@@ -8,7 +8,7 @@ import { createScanner } from '../parser/htmlScanner';
 import {
 	CompletionConfiguration, ICompletionParticipant, ScannerState, TokenType, LanguageServiceOptions, DocumentContext,
 	Position, CompletionList, CompletionItemKind, Range, TextEdit, InsertTextFormat, CompletionItem, MarkupKind, TextDocument
-} from '../htmlLanguageTypes';
+} from '../wxmlLanguageTypes';
 import { entities } from '../parser/htmlEntities';
 
 import * as nls from 'vscode-nls';
