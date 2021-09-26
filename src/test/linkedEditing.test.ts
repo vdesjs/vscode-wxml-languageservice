@@ -4,8 +4,8 @@
  *--------------------------------------------------------------------------------------------*/
 
 import * as assert from 'assert';
-import * as htmlLanguageService from '../wmlLanguageService';
-import { TextDocument } from '../wmlLanguageService';
+import * as htmlLanguageService from '../wxmlLanguageService';
+import { TextDocument } from '../wxmlLanguageService';
 
 interface OffsetWithText {
   0: number;

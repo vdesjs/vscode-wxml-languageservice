@@ -4,8 +4,8 @@
  *--------------------------------------------------------------------------------------------*/
 
 import * as assert from 'assert';
-import * as htmlLanguageService from '../wmlLanguageService';
-import { TextDocument } from '../wmlLanguageService';
+import * as htmlLanguageService from '../wxmlLanguageService';
+import { TextDocument } from '../wxmlLanguageService';
 
 export function testMatchingTagPosition(value: string): void {
   let offset = value.indexOf('|');

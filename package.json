@@ -1,6 +1,6 @@
 {
   "name": "@vdesjs/vscode-wxml-languageservice",
-  "version": "4.0.8",
+  "version": "4.0.9",
   "description": "Language service for HTML",
   "main": "./lib/umd/wxmlLanguageService.js",
   "typings": "./lib/umd/wxmlLanguageService",

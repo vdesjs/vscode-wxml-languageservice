@@ -6,7 +6,7 @@
 
 import * as assert from 'assert';
 import { TextDocument } from '../wxmlLanguageTypes';
-import * as htmlLanguageService from '../wmlLanguageService';
+import * as htmlLanguageService from '../wxmlLanguageService';
 import { getDocumentContext } from './testUtil/documentContext';
 
 suite('HTML Link Detection', () => {

@@ -4,8 +4,8 @@
  *--------------------------------------------------------------------------------------------*/
 
 import * as assert from 'assert';
-import * as htmlLanguageService from '../wmlLanguageService';
-import { HoverSettings, TextDocument, MarkupContent } from '../wmlLanguageService';
+import * as htmlLanguageService from '../wxmlLanguageService';
+import { HoverSettings, TextDocument, MarkupContent } from '../wxmlLanguageService';
 
 export function assertHover(value: string, expectedHoverContent: MarkupContent | undefined, expectedHoverOffset: number | undefined): void {
 	const offset = value.indexOf('|');
