@@ -56,18 +56,7 @@ export const htmlData: HTMLDataV1 = {
 				},
 				{
 					"name": "type",
-					"values": [
-						{
-							"name": "primary",
-
-						},
-						{
-							"name": "default"
-						},
-						{
-							"name": "warn"
-						}
-					],
+					"valueSet": "button-type",
 					"description": "按钮的样式类型"
 				},
 				{
@@ -87,41 +76,14 @@ export const htmlData: HTMLDataV1 = {
 				},
 				{
 					"name": "form-type",
-					"values": [
-						{
-							"name": "submit"
-						},
-						{
-							"name": "reset"
-						}
-					],
+					"valueSet": "form-type",
 					"description": "用于 form 组件，点击分别会触发 form 组件的 submit/reset 事件"
 				},
 				{
 					"name": "open-type",
-					"values": [
-						{
-							"name": "contact",
-						},
-						{
-							"name": "share"
-						},
-						{
-							"name": "getPhoneNumber"
-						},
-						{
-							"name": "getUserInfo"
-						},
-						{
-							"name": "launchApp"
-						},
-						{
-							"name": "openSetting"
-						},
-						{
-							"name": "feedback"
-						}
-					]
+					"valueSet": "button-open-type",
+					"description": "微信开放能力"
+
 				},
 				{
 					"name": "hover-class",
@@ -207,5 +169,57 @@ export const htmlData: HTMLDataV1 = {
 				}
 			]
 		},
+		{
+			"name": "form-type",
+			"values": [
+				{
+					"name": "submit"
+				},
+				{
+					"name": "reset"
+				}
+			],
+		},
+		{
+			"name": "button-type",
+			"values": [
+				{
+					"name": "primary",
+
+				},
+				{
+					"name": "default"
+				},
+				{
+					"name": "warn"
+				}
+			],
+		},
+		{
+			"name": "button-open-type",
+			"values": [
+				{
+					"name": "contact",
+				},
+				{
+					"name": "share"
+				},
+				{
+					"name": "getPhoneNumber"
+				},
+				{
+					"name": "getUserInfo"
+				},
+				{
+					"name": "launchApp"
+				},
+				{
+					"name": "openSetting"
+				},
+				{
+					"name": "feedback"
+				}
+			]
+		}
 	]
 };
